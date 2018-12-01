@@ -18,11 +18,13 @@ Parent tags = `{songbegin} Lyrics and chords here {songend}`
 Chord tags = `{{G}}` (Simply wrap each chord in double curly brackets)
 
 Example of what you would type into a new post:
-`{songbegin}
+~~~
+{songbegin}
 
 These {{G}}are lyrics to a {{C}}song.
 
-{songend}`
+{songend}
+~~~
 
 ## Customize
 
