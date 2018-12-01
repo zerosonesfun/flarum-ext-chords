@@ -10,6 +10,7 @@
  */
 
 use Flarum\Extend;
+use Flarum\Frontend\Document;
 use s9e\TextFormatter\Configurator;
 
 return (new Extend\Formatter)
@@ -23,3 +24,10 @@ return (new Extend\Formatter)
         '<p class="song show-chords">{TEXT2}</p>'
         );
     });
+
+return [
+    (new Extend\Frontend('forum'))
+        ->content(function (Document $document) {
+            $document->head[] = '<link rel="stylesheet" type="text/css" href="/assets/extensions/zerosonesfun-chords/styles.css">';
+        })
+];
