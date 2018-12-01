@@ -1,0 +1,21 @@
+{
+    "name": "zerosonesfun/flarum-ext-chords",
+    "description": "Simple sheet music",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "0.1.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {"ZerosOnesFun\\Chords\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Chords",
+            "icon": {
+                "name": "fas fa-music",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
