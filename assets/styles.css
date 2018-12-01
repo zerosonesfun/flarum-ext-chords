@@ -17,3 +17,6 @@ p.song.show-chords span {
   font-weight:bold;
   line-height:2.5em;
 }
+p.song.show-chords {
+    padding-top: 5px;
+}
