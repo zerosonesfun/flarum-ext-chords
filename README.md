@@ -1,6 +1,6 @@
 # flarum-ext-chords
 
-Post basic sheet music on your Flarum. Beta 8+ compatible.
+Post basic sheet music on your Flarum.
 
 ## Install
 
