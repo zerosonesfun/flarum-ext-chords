@@ -6,7 +6,7 @@ Post basic sheet music on your Flarum.
 
 `composer require zerosonesfun/flarum-ext-chords`
 
-## Upgrade
+## Update
 
 `composer update zerosonesfun/flarum-ext-chords`
 `php flarum cache:clear`
