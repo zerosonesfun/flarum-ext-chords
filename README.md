@@ -14,7 +14,7 @@ Post basic sheet music on your Flarum.
 
 ## Usage
 
-This extension looks for specific bbcode tags and converts them to the code needed so that your sheet music chords are above the lyrics. Wrap the entire song in [song] [/song] and then where you want a chord, use [chord] [/chord]
+This extension looks for specific BBCode tags and converts them to the code needed so that your sheet music chords are above the lyrics. Wrap the entire song in [song] [/song] and then where you want a chord, use [chord] [/chord]
 
 Example of what you would type into a new post:
 ~~~
