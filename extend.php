@@ -23,6 +23,14 @@ return [
                 '<span class="chord">{TEXT1}</span>'
             );
             $config->BBCodes->addCustom(
+                '[c]{TEXT1}[/c]',
+                '<span class="chord">{TEXT1}</span>'
+            );
+            $config->BBCodes->addCustom(
+                '[n]{TEXT1}[/n]',
+                '<span class="chord">{TEXT1}</span>'
+            );
+            $config->BBCodes->addCustom(
                 '[song]{TEXT2}[/song]',
                 '<p class="song show-chords">{TEXT2}</p>'
             );
