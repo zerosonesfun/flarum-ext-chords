@@ -12,8 +12,7 @@ p.song.show-chords span {
   overflow:visible;
   width:0;
   white-space:nowrap;
-  text-shadow:#CCC -1px 1px;
-  color:#00285c;
+  color:#333333;
   font-weight:bold;
   line-height:2.5em;
 }
