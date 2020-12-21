@@ -1,22 +1,39 @@
 {
     "name": "zerosonesfun/flarum-ext-chords",
-    "description": "Simple sheet music",
+    "description": "Sheet music using BBCode.",
+    "type": "flarum-extension",
+    "keywords": ["discussion, formatting, music, chords"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Billy Wilcosky",
             "role": "Creator"
         }
     ],
-    "type": "flarum-extension",
+    "support": {
+        "issues": "https://github.com/zerosonesfun/flarum-ext-chords/issues",
+        "source": "https://github.com/zerosonesfun/flarum-ext-chords",
+        "forum": "https://discuss.flarum.org"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
     "require": {
-        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
+        "flarum/core": "^0.1.0-beta.15"
     },
     "autoload": {
-        "psr-4": {"ZerosOnesFun\\Chords\\": "src/"}
+        "psr-4": {
+            "ZerosOnesFun\\Chords\\": "src/"
+        }
     },
     "extra": {
         "flarum-extension": {
             "title": "Chords",
+            "category": "formatting",
             "icon": {
                 "name": "fas fa-music",
                 "backgroundColor": "#ddd",
