@@ -2,7 +2,7 @@
     "name": "zerosonesfun/flarum-ext-chords",
     "description": "Sheet music using BBCode.",
     "type": "flarum-extension",
-    "keywords": ["discussion, formatting, music, chords"],
+    "keywords": ["discussion", "formatting", "music", "chords"],
     "license": "MIT",
     "authors": [
         {
