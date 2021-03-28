@@ -23,7 +23,7 @@ return [
                 '<span class="chord">{TEXT1}</span>'
             );
             $config->BBCodes->addCustom(
-                '[c]{TEXT2}[/c]',
+                '[cd]{TEXT2}[/cd]',
                 '<span class="chord">{TEXT2}</span>'
             );
             $config->BBCodes->addCustom(
